@@ -79,26 +79,26 @@ cd web3\
 node -v\
 nvm use "paste the version"\
 npm run compile\
-npm run node\
+npm run node
 
 split terminal\
 npm run deploy-local\
 copied the address and pasted it in env.local\
 NEXT_PUBLIC_CHAT_DAPP_ADDRESS:your_address\
-NEXT_PUBLIC_THEBLOCKCHAINCODERS:your_blockchain_coders\
+NEXT_PUBLIC_THEBLOCKCHAINCODERS:your_blockchain_coders
 
 clear\
 cd..\
 node -v\
 npm i\
-clear\
+clear
 
 relay website\
 Create acc then create project\
-and copy the proj id paste it in env.local public wallet proj id\
+and copy the proj id paste it in env.local public wallet proj id
 
 Login into pinata then create api key\
-Create Metamask Acc\
+Create Metamask Acc
 
 ------------------------------------------------------------------------
 
