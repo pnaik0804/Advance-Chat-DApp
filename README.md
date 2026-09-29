@@ -124,9 +124,9 @@ Do NOT push `.env` files to GitHub. Add them to `.gitignore`.
 
 ## 🚀 Future Enhancements
 
--   Real-time notifications\
--   Video/Voice calling\
--   Mobile responsiveness improvements\
+-   Real-time notifications
+-   Video/Voice calling
+-   Mobile responsiveness improvements
 -   Deployment on Vercel
 
 ------------------------------------------------------------------------
