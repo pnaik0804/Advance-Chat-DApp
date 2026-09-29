@@ -50,11 +50,6 @@ Manage friends and chat history
 
 ## ⚙️ Installation & Setup
 
-### Clone the repository
-
-git clone https://github.com/pnaik0804/Advance-Chat-DApp.git cd
-Advance-Chat-DApp
-
 ### Install dependencies
 
 npm install
@@ -72,15 +67,44 @@ NEXT_PUBLIC_CONTRACT_ADDRESS=your_contract_address
 ## 🔗 Smart Contract Setup
 
 cd web3\
-npm install\
-npx hardhat compile\
-npx hardhat run scripts/deploy.js --network localhost
+node -v\
+npm -v\
+nvm -v\
+nvm list available\
+nvm install "paste the version"\
+nvm use "paste the version"\
+npm i\
+clear\
+cd web3\
+node -v\
+nvm use "paste the version"\
+npm run compile\
+npm run node\
+
+split terminal\
+npm run deploy-local\
+copied the address and pasted it in env.local\
+NEXT_PUBLIC_CHAT_DAPP_ADDRESS:your_address\
+NEXT_PUBLIC_THEBLOCKCHAINCODERS:your_blockchain_coders\
+
+clear\
+cd..\
+node -v\
+npm i\
+clear\
+
+relay website\
+Create acc then create project\
+and copy the proj id paste it in env.local public wallet proj id\
+
+Login into pinata then create api key\
+Create Metamask Acc\
 
 ------------------------------------------------------------------------
 
 ## ▶️ Run the Application
 
-npm run dev
+npm run dev -- --webpack
 
 App runs at: http://localhost:3000
 
@@ -97,14 +121,7 @@ Do NOT push `.env` files to GitHub. Add them to `.gitignore`.
 -   Real-time notifications\
 -   Video/Voice calling\
 -   Mobile responsiveness improvements\
--   AI-based content moderation\
 -   Deployment on Vercel
-
-------------------------------------------------------------------------
-
-## 👩‍💻 Author
-
-Priya Naik
 
 ------------------------------------------------------------------------
 
