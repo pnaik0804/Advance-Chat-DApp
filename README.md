@@ -1,79 +1,117 @@
 # 🚀 Advance Chat DApp
 
-A decentralized real-time chat application built using Web3 technologies. This project enables secure messaging, profile management, and token transfers using Ethereum smart contracts.
+A decentralized real-time chat application built using Web3
+technologies. This project enables secure messaging, wallet-based
+authentication, and token transfers using Ethereum smart contracts.
 
----
+------------------------------------------------------------------------
 
 ## 🧠 Overview
 
-Advance Chat DApp is a blockchain-based chat platform where users can:
-- Connect wallets using MetaMask
-- Send and receive messages securely
-- Transfer tokens between users
-- Upload profile pictures using IPFS
-- Manage friends and chat history
+Advance Chat DApp is a blockchain-based chat platform where users can: -
+Connect wallets using MetaMask - Send and receive messages securely -
+Transfer tokens between users - Upload profile pictures using IPFS -
+Manage friends and chat history
 
----
+------------------------------------------------------------------------
+
+## ✨ Features
+
+-   🔐 Wallet Authentication (MetaMask)
+-   💬 Real-time Chat Interface
+-   👥 Friend Management System
+-   🪙 Token Transfer Functionality
+-   🖼️ Profile Picture Upload (IPFS)
+-   📊 Dashboard with User Stats
+-   ⚙️ Settings & Profile Management
+
+------------------------------------------------------------------------
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- Next.js
-- React.js
-- Tailwind CSS
+
+-   Next.js\
+-   React.js\
+-   Tailwind CSS
 
 ### Web3 & Blockchain
-- Solidity
-- Hardhat
-- Ethers.js / Wagmi
-- MetaMask Wallet
 
-### Backend / Storage
-- IPFS (Pinata)
-- Smart Contracts (Ethereum)
+-   Solidity\
+-   Hardhat\
+-   Ethers.js / Wagmi\
+-   MetaMask Wallet
 
----
+### Storage
 
-## ✨ Features
+-   IPFS (Pinata)
 
-- 🔐 Wallet Authentication (MetaMask)
-- 💬 Real-time Chat Interface
-- 👥 Friend Management System
-- 🪙 Token Transfer Functionality
-- 🖼️ Profile Picture Upload (IPFS)
-- 📊 Dashboard with User Stats
-- ⚙️ Settings & Profile Management
-
----
-
-## 📁 Project Structure
-Advance-Chat-DApp/
-│
-├── components/ # UI Components (Chat, Dashboard, Profile, etc.)
-├── pages/ # Next.js Pages
-├── hooks/ # Custom React Hooks (Web3 logic)
-├── utils/ # Utility functions
-├── config/ # Wagmi/Web3 config
-├── styles/ # Global styles
-│
-├── web3/
-│ ├── contracts/ # Solidity Smart Contracts
-│ ├── scripts/ # Deployment scripts
-│ ├── artifacts/ # Compiled contracts
-│ └── hardhat.config.js
-│
-├── public/
-├── package.json
-└── README.md
-
----
+------------------------------------------------------------------------
 
 ## ⚙️ Installation & Setup
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/pnaik0804/Advance-Chat-DApp.git
-cd Advance-Chat-DApp
+### Clone the repository
+
+git clone https://github.com/pnaik0804/Advance-Chat-DApp.git cd
+Advance-Chat-DApp
+
+### Install dependencies
+
+npm install
+
+### Setup environment variables
+
+Create a `.env.local` file:
+
+NEXT_PUBLIC_PINATA_API_KEY=your_key\
+NEXT_PUBLIC_PINATA_SECRET_KEY=your_secret\
+NEXT_PUBLIC_CONTRACT_ADDRESS=your_contract_address
+
+------------------------------------------------------------------------
+
+## 🔗 Smart Contract Setup
+
+cd web3\
+npm install\
+npx hardhat compile\
+npx hardhat run scripts/deploy.js --network localhost
+
+------------------------------------------------------------------------
+
+## ▶️ Run the Application
+
+npm run dev
+
+App runs at: http://localhost:3000
+
+------------------------------------------------------------------------
+
+## 🔐 Security Note
+
+Do NOT push `.env` files to GitHub. Add them to `.gitignore`.
+
+------------------------------------------------------------------------
+
+## 🚀 Future Enhancements
+
+-   Real-time notifications\
+-   Video/Voice calling\
+-   Mobile responsiveness improvements\
+-   AI-based content moderation\
+-   Deployment on Vercel
+
+------------------------------------------------------------------------
+
+## 👩‍💻 Author
+
+Priya Naik
+
+------------------------------------------------------------------------
+
+## 📜 License
+
+This project is for educational purposes.
+
 
 # Blockchain Web3 Chat DApp
 
