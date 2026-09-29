@@ -8,8 +8,7 @@ authentication, and token transfers using Ethereum smart contracts.
 ------------------------------------------------------------------------
 
 ## 🧠 Overview
-
-![alt text](https://www.daulathussain.com/wp-content/uploads/2025/06/Build-Deploy-a-Blockchain-Web3-Chat-DApp-Solidity-Next.js-Wagmi-–-Full-Stack-Project.jpg)
+<img width="1919" height="1079" alt="Screenshot 2026-03-17 191913" src="https://github.com/user-attachments/assets/13588402-dde7-42e0-bf8a-62dea4fb3a2e" />
 
 Advance Chat DApp is a blockchain-based chat platform where users can: -
 Connect wallets using MetaMask - Send and receive messages securely -
