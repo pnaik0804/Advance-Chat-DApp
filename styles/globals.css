@@ -1,0 +1,316 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Animation classes */
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-up {
+  animation: slideUp 0.3s ease-in-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Message animations */
+.message-enter {
+  animation: messageEnter 0.3s ease-in-out;
+}
+
+@keyframes messageEnter {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Loading spinner */
+.spinner {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive utilities */
+@media (max-width: 640px) {
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+/* Custom component styles */
+.chat-bubble {
+  max-width: 70%;
+  word-wrap: break-word;
+  animation: messageEnter 0.3s ease-in-out;
+}
+
+.file-upload-area {
+  border: 2px dashed #d1d5db;
+  transition: all 0.3s ease-in-out;
+}
+
+.file-upload-area:hover {
+  border-color: #3b82f6;
+  background-color: #eff6ff;
+}
+
+.notification-dot {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes float {
+  0%,100% { transform: translateY(0px) rotate(0deg); }
+  25% { transform: translateY(-5px) rotate(1deg); }
+  50% { transform: translateY(0px) rotate(0deg); }
+  75% { transform: translateY(-3px) rotate(-1deg); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 3s ease infinite;
+}
+
+@keyframes spin-glow {
+  0% { transform: rotate(0deg); opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { transform: rotate(360deg); opacity: 0.5; }
+}
+
+.animate-spin-glow {
+  animation: spin-glow 2s linear infinite;
+}
+
+/* Custom scrollbar for chat/friends list */
+.overflow-y-auto::-webkit-scrollbar {
+  width: 6px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-track {
+  background: rgba(14, 11, 18, 0.3);
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #d946ef, #9333ea);
+  border-radius: 3px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #c026d3, #7c3aed);
+}
+
+/* Staggered animations */
+@keyframes slide-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.group {
+  animation: slide-in-up 0.6s ease-out forwards;
+}
+
+/* Focus fix */
+input:focus,
+button:focus {
+  outline: none;
+}
+
+/* Hover effect */
+.hover-lift:hover {
+  transform: translateY(-2px);
+}
+
+/* Header Enhancements */
+
+/* Placeholder styling */
+input::placeholder {
+  color: rgba(156, 163, 175, 0.8);
+}
+
+input:focus::placeholder {
+  color: rgba(156, 163, 175, 0.6);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(14, 11, 18, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #d946ef, #9333ea);
+  border-radius: 3px;
+}
+
+/* Responsive search */
+@media (max-width: 640px) {
+  .mobile-search {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mobile-search {
+    max-width: 140px;
+  }
+}
+
+/* Focus outline */
+*:focus {
+  outline: 2px solid #d946ef !important;
+  outline-offset: 2px !important;
+}
+
+/* Float animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-2px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Menu pulse */
+@keyframes menu-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(217, 70, 239, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(217, 70, 239, 0); }
+}
+
+.menu-active {
+  animation: menu-pulse 1.5s infinite;
+}
+
+/* Profile Upload Animations */
+
+@keyframes profile-glow {
+  0%,100% { box-shadow: 0 0 30px rgba(217, 70, 239, 0.2); }
+  50% { box-shadow: 0 0 50px rgba(217, 70, 239, 0.4); }
+}
+
+.group:hover .relative {
+  animation: profile-glow 2s ease-in-out infinite;
+}
+
+@keyframes drag-bounce {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.drag-active {
+  animation: drag-bounce 0.6s ease-in-out infinite;
+}
+
+@keyframes upload-pulse {
+  0%,100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+.upload-progress {
+  animation: upload-pulse 1.5s ease-in-out infinite;
+}
+
+button:focus {
+  outline: 2px solid rgba(217, 70, 239, 0.6);
+  outline-offset: 2px;
+}

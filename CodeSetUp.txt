@@ -1,0 +1,47 @@
+## FINAL SOURCE CODE SETUP
+
+- Kindly follow the following instruction to setup the final source code, down below, there is Setup video you must watch till the end to understand what you have got and how to run the project
+
+# Setup Vudeo Link
+
+- URL: https://youtu.be/0SMQwZarvWw?si=IstvK7pEgaXRS6He
+
+📌 Timestamps
+00:00:00 ➤ Introduction
+00:00:36 ➤ Overview
+00:05:19 ➤ Features Demo
+00:13:21 ➤ Mobile Support
+00:14:31 ➤ Starter File
+00:15:34 ➤ Final Source Code
+00:27:58 ➤ Environment Variables
+00:37:35 ➤ Testing Live
+
+
+####  CHAT DAPP COMPLET PROJECT
+
+```
+  WATCH: CHAT DAPP
+  Get : https://www.theblockchaincoders.com/sourceCode/blockchain-chat-dapp-project-source-code
+  SETUP: https://youtu.be/lURReDp5CR8?si=jKEMs8cjh8ISyA5f
+  VIDEO: https://youtu.be/yle9MMqY7yY?si=iK6pKAvnbC1N3xx7
+```
+
+
+####  Hostinger Deployment Online
+
+```
+  WATCH: Hostinger
+  Get : Discount 75%
+  URL: https://www.hostg.xyz/aff_c?offer_id=6&aff_id=139422
+```
+
+
+## Support EmailID
+
+- EmailID: theblockchaincoders@gmail.com
+
+- If you have any question related to the project, kindly connect to this emailID: (theblockchaincoders@gmail.com) for any help, In the email kindly provide the follow details about the project and your purchased emailID Likes
+
+1. EmailID: Which you have used when you bought the code
+2. Share Project URL: 
+3. Screenshot / Screen recording of error : Error which you are facing

@@ -1,0 +1,10 @@
+export const MESSAGE_TYPES = {
+  TEXT: 0,
+  IMAGE: 1,
+  VIDEO: 2,
+  AUDIO: 3,
+  ETH_TRANSFER: 4,
+  TOKEN_TRANSFER: 5,
+};
+
+export const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS;
