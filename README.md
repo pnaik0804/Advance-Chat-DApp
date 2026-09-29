@@ -1,3 +1,80 @@
+# 🚀 Advance Chat DApp
+
+A decentralized real-time chat application built using Web3 technologies. This project enables secure messaging, profile management, and token transfers using Ethereum smart contracts.
+
+---
+
+## 🧠 Overview
+
+Advance Chat DApp is a blockchain-based chat platform where users can:
+- Connect wallets using MetaMask
+- Send and receive messages securely
+- Transfer tokens between users
+- Upload profile pictures using IPFS
+- Manage friends and chat history
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js
+- React.js
+- Tailwind CSS
+
+### Web3 & Blockchain
+- Solidity
+- Hardhat
+- Ethers.js / Wagmi
+- MetaMask Wallet
+
+### Backend / Storage
+- IPFS (Pinata)
+- Smart Contracts (Ethereum)
+
+---
+
+## ✨ Features
+
+- 🔐 Wallet Authentication (MetaMask)
+- 💬 Real-time Chat Interface
+- 👥 Friend Management System
+- 🪙 Token Transfer Functionality
+- 🖼️ Profile Picture Upload (IPFS)
+- 📊 Dashboard with User Stats
+- ⚙️ Settings & Profile Management
+
+---
+
+## 📁 Project Structure
+Advance-Chat-DApp/
+│
+├── components/ # UI Components (Chat, Dashboard, Profile, etc.)
+├── pages/ # Next.js Pages
+├── hooks/ # Custom React Hooks (Web3 logic)
+├── utils/ # Utility functions
+├── config/ # Wagmi/Web3 config
+├── styles/ # Global styles
+│
+├── web3/
+│ ├── contracts/ # Solidity Smart Contracts
+│ ├── scripts/ # Deployment scripts
+│ ├── artifacts/ # Compiled contracts
+│ └── hardhat.config.js
+│
+├── public/
+├── package.json
+└── README.md
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/pnaik0804/Advance-Chat-DApp.git
+cd Advance-Chat-DApp
+
 # Blockchain Web3 Chat DApp
 
 Build & Deploy a Blockchain Web3 Chat DApp | Solidity, Next.js, Wagmi – Full Stack Project
