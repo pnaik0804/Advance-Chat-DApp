@@ -34,15 +34,15 @@ Manage friends and chat history
 
 ### Frontend
 
--   Next.js\
--   React.js\
+-   Next.js
+-   React.js
 -   Tailwind CSS
 
 ### Web3 & Blockchain
 
--   Solidity\
--   Hardhat\
--   Ethers.js / Wagmi\
+-   Solidity
+-   Hardhat
+-   Ethers.js / Wagmi
 -   MetaMask Wallet
 
 ### Storage
@@ -96,11 +96,14 @@ node -v\
 npm i\
 clear
 
-relay website\
+-Relay website\
 Create acc then create project\
 and copy the proj id paste it in env.local public wallet proj id
 
-Login into pinata then create api key\
+-Pinata Website\
+Login into pinata then create api key
+
+-Metamask Website\
 Create Metamask Acc
 
 ------------------------------------------------------------------------
@@ -131,6 +134,3 @@ Do NOT push `.env` files to GitHub. Add them to `.gitignore`.
 ## 📜 License
 
 This project is for educational purposes.
-
-- [@consultancy](https://www.theblockchaincoders.com/consultancy)
-- [@youtube](https://www.youtube.com/@daulathussain)
