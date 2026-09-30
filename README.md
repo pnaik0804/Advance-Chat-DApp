@@ -72,7 +72,6 @@ Manage friends and chat history
 ### AI Moderation
 - NSFWJS + TensorFlow.js
 
----
 ------------------------------------------------------------------------
 
 ## ⚙️ How It Works
@@ -94,6 +93,32 @@ Manage friends and chat history
 - MetaMask confirms each transaction
 
 ------------------------------------------------------------------------
+
+## 📈 Key Advantages
+
+- ✅ Fully decentralized (no central server)
+- ✅ Data privacy & ownership
+- ✅ Immutable messages
+- ✅ Censorship-resistant
+- ✅ Integrated crypto payments
+
+---
+
+## ⚠️ Limitations
+
+- Gas fees for transactions
+- Network latency
+- Scalability challenges
+
+---
+
+## 📸 Results
+
+- Landing Page  
+- Wallet Connection  
+- Dashboard  
+- Chat Interface  
+- Media Transfer 
 
 ## ⚙️ Installation & Setup
 
