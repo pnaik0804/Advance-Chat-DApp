@@ -18,36 +18,80 @@ Manage friends and chat history
 
 ------------------------------------------------------------------------
 
-## ✨ Features
+## 🚀 Features
 
--   🔐 Wallet Authentication (MetaMask)
--   💬 Real-time Chat Interface
--   👥 Friend Management System
--   🪙 Token Transfer Functionality
--   🖼️ Profile Picture Upload (IPFS)
--   📊 Dashboard with User Stats
--   ⚙️ Settings & Profile Management
+### 💬 Decentralized Messaging
+- Send and receive text messages via smart contracts
+- No centralized server involved
 
-------------------------------------------------------------------------
+### 🖼️ Media Sharing (IPFS)
+- Upload images, videos, and audio using Pinata
+- Only IPFS hash stored on blockchain (low gas cost)
+
+### 👥 Friend System
+- Add friends using wallet addresses
+- Only friends can communicate (spam prevention)
+
+### 💰 Crypto Transactions
+- Send **ETH and ERC-20 tokens** directly in chat
+- Built-in financial interaction layer
+
+### 🔐 Wallet Authentication
+- Login using MetaMask (no username/password)
+- Identity = Ethereum wallet address
+
+### 🛡️ NSFW Content Moderation
+- AI-based image moderation using **NSFWJS + TensorFlow.js**
+- Blocks inappropriate content before upload
+
+### 📊 Dashboard
+- View:
+  - Total messages
+  - Friends count
+  - ETH/token transfers
+
+---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
+- Next.js (React)
+- Wagmi (Web3 hooks)
+- Viem (Ethereum interaction)
 
--   Next.js
--   React.js
--   Tailwind CSS
-
-### Web3 & Blockchain
-
--   Solidity
--   Hardhat
--   Ethers.js / Wagmi
--   MetaMask Wallet
+### Backend
+- Solidity Smart Contracts
+- Hardhat (development & deployment)
 
 ### Storage
+- IPFS (via Pinata)
 
--   IPFS (Pinata)
+### Authentication
+- MetaMask Wallet
+
+### AI Moderation
+- NSFWJS + TensorFlow.js
+
+---
+------------------------------------------------------------------------
+
+## ⚙️ How It Works
+
+### 1️⃣ Registration
+- User connects MetaMask
+- Creates account stored on blockchain
+
+### 2️⃣ Add Friends
+- Select users from global registry
+- Smart contract links both users
+
+### 3️⃣ Messaging
+- Text → Stored on-chain  
+- Media → Uploaded to IPFS, hash stored on-chain  
+
+### 4️⃣ Transactions
+- Send ETH or tokens inside chat
+- MetaMask confirms each transaction
 
 ------------------------------------------------------------------------
 
